@@ -12,7 +12,6 @@ let clothesData = {
         stoke:[
           {color:"blueWhite",buttonImg:"img/button/c1-blueWhite.jpeg",clothestImg:"img/clothest/c1-blueWhite.jpeg",size:["M","L","xL","xxl"]},
           {color:"redWhite",buttonImg:"img/button/c1-redWhite.jpeg",clothestImg:"img/clothest/c1-redWhite.jpeg",size:["S","L","xL","xxl"]},
-          {color:"grayWhite",buttonImg:"img/button/c1-GrayWhite.jpeg",clothestImg:"img/clothest/c1-grayWhite.jpeg",size:["S","M","xL","xxl"]},
           {color:"yellowWhite",buttonImg:"img/button/c1-yellowWhite.jpeg",clothestImg:"img/clothest/c1-yellowWhite.jpeg",size:["S","M","L","xxl"]},
           {color:"blackGray",buttonImg:"img/button/c1-blackGray.jpeg",clothestImg:"img/clothest/c1-blackGray.jpeg",size:["S","M","L","xL"]}
         ]  
