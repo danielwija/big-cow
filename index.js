@@ -126,7 +126,7 @@ for(let i = 0; i < clothesData.data.length; i++){
   // creatTable(clothesData.data[i].name , clothesData.data[i].id)
   let aTag = document.createElement("a")
   console.log(clothesData.data[i].id)
-  aTag.href = "file:///Users/huangzhiju/Desktop/clothest_data/clothest-lativ3/index.html" + "?id=" + clothesData.data[i].id;
+  aTag.href = "https://danielwija.github.io/lative-imitate/" + "?id=" + clothesData.data[i].id;
   aTag.innerHTML = clothesData.data[i].name
   let aHref = document.getElementById("aHref");
   aHref.append(aTag);
