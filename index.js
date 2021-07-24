@@ -146,7 +146,7 @@ for(let i = 0; i < clothesData.data.length; i++){
   // creatTable(clothesData.data[i].name , clothesData.data[i].id)
   let aTag = document.createElement("a")
   console.log(clothesData.data[i].id)
-  aTag.href = "file:///Users/huangzhiju/Documents/Daniel%20Huang/%E7%A8%8B%E5%BC%8F/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E7%B0%A1%E4%BB%8B/clothes_data/clothes-lativ5/index.html" + "?id=" + clothesData.data[i].id;
+  aTag.href = "https://danielwija.github.io/lative-daniel/" + "?id=" + clothesData.data[i].id;
   aTag.innerHTML = clothesData.data[i].name
   let aHref = document.getElementById("aHref");
   aHref.append(aTag);
